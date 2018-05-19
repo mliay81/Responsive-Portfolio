@@ -216,26 +216,49 @@ input[type=submit] {
   border: 0 none;
 }
 
-
+/*This works, don't nuke it*/
 @media screen and (max-width: 980px) {
- body {
-    color: red;
- }
+    body {
+        color: red;
     
-}
+    } 
+    #main-container {
+        margin: 0 auto;
+    }
+    .main-section {
+        color:red;
+        width: 95%;
+        margin: 0 2.5%;
+    }
+    }
 
 @media screen and (max-width: 768px) {
-body {
-    color: blue;
-}
-}
+    body {
+        color: blue;
+    
+    } 
+    #main-container {
+        margin: 0 auto;
+    }
+    .main-section {
+        color: blue;
+        width: 95%;
+        margin: 0 2.5%;
+    }
+    }
 
 @media screen and (max-width: 640px) {
 body {
     color: green;
-}
 
-#masthead {
-    position: static;
+} 
+#main-container {
+    margin: 0 auto;
+}
+.main-section {
+    color: green;
+    width: 95%;
+    margin: 0 2.5%;
 }
 }
+/*This works, don't nuke it*/
