@@ -215,3 +215,27 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media screen and (max-width: 980px) {
+ body {
+    color: red;
+ }
+    
+}
+
+@media screen and (max-width: 768px) {
+body {
+    color: blue;
+}
+}
+
+@media screen and (max-width: 640px) {
+body {
+    color: green;
+}
+
+#masthead {
+    position: static;
+}
+}
